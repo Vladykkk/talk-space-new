@@ -1,0 +1,45 @@
+:root {
+  --down-arrow: url("../img/menu/groups/down-arrow.svg");
+}
+
+.groupsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.groupsSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.groupsSearch button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--clr-purple);
+}
+
+.groupsSearch button::after {
+  content: var(--down-arrow);
+}
+
+.groupsSearch input {
+  width: auto;
+}
+
+.groupsTiles {
+  margin-bottom: 32px;
+}
+
+.groupsMore {
+  display: flex;
+  justify-content: center;
+}
+
+.groupsMore button {
+  color: var(--clr-purple);
+}

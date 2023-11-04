@@ -1,0 +1,97 @@
+.login,
+.register {
+  max-width: 570px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:visited {
+  color: #000;
+}
+
+input[type="text"],
+input[type="password"],
+.authButton,
+textarea {
+  font-size: 18px;
+  border-radius: 0.5rem;
+}
+
+label,
+.authButton {
+  margin-top: 1.5rem;
+}
+
+label {
+  font-size: 1.125rem;
+  margin-bottom: 5px;
+}
+
+input {
+  min-height: 50px;
+  width: 100%;
+  padding: 0px 20px;
+  border: 1px solid #acacac;
+  border-radius: 10px;
+}
+
+.authButton {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.25rem;
+  background-color: #665cb1;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+.account {
+  margin-top: 25px;
+}

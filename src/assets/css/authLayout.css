@@ -1,0 +1,56 @@
+@import url("common.css");
+
+:root {
+  /* images */
+  --sky-top: url("../../assets/img/login/sky-top.png");
+  --sky-bottom: url("../../assets/img/login/sky-bottom.png");
+}
+
+body {
+  font-size: var(--fs-primary);
+}
+
+h2 {
+  font-size: var(--fs-secondary);
+  font-weight: var(--fw-medium);
+}
+
+.authWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+  min-height: 100vh;
+  overflow: clip;
+  background-image: var(--sky-top), var(--sky-bottom);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  min-height: 110px;
+  width: 100%;
+  padding-left: 60px;
+
+  a {
+    margin-left: 2rem;
+  }
+}
+
+.authContainer {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: var(--fs-title);
+  font-family: var(--ff-inter);
+  font-weight: var(--fw-medium);
+  color: var(--clr-purple);
+  margin-bottom: 40px;
+}

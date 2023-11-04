@@ -1,0 +1,27 @@
+@import url("AuthLayout.css");
+
+.tiles {
+  display: flex;
+  gap: 100px;
+}
+
+.homeTile {
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  font-size: var(--fs-secondary);
+  cursor: pointer;
+  border: 2px solid #9181fa;
+  border-radius: 15px;
+  transition: 0.5s ease;
+
+  &:hover {
+    border: 2px solid #893fd6;
+    box-shadow: 0 0 5px 5px #dddffd;
+  }
+
+  h2 {
+    font-size: var(--fs-secondary);
+    margin-bottom: 40px;
+  }
+}
